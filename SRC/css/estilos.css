@@ -1,7 +1,7 @@
-body{
-    font-family: "Oxanium", cursive;
-    background-color: #000000;
-    color: #ffffff;
+body {
+	font-family: "Oxanium", cursive;
+	background-color: hsl(0, 0%, 0%);
+	color: #ffffff;
 }
 
 body::before{
@@ -9,6 +9,7 @@ body::before{
     background-image: url(../imagens/bg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -16,50 +17,50 @@ body::before{
     opacity: 0.2;
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: center;
+.cabecalho {
+	display: flex;
+	justify-content: center;
 }
 
 .selecao-de-personagens {
-    display: flex;
+	display: flex;
 	align-items: center;
 	gap: 30px;
     min-height: calc(100vh - 152px);
     justify-content: center;
 }
 
-.selecao-de-personagens .lista-de-personagens{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+.selecao-de-personagens .lista-de-personagens {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
 }
 
-.selecao-de-personagens .personagens{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 585px;
-    gap: 25px;
+.selecao-de-personagens .personagens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 585px;
+	gap: 25px;
 }
 
-.selecao-de-personagens .personagens .titulo{
-    font-size: 20px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #47f4ff;
-    width: 100%;
-    text-align: center;
+.selecao-de-personagens .personagens .titulo {
+	font-size: 20px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #47f4ff;
+	width: 100%;
+	text-align: center;
 }
 
-.lista-de-personagens .personagem img{
-    width: 100%;
-    height: 100%;
+.lista-de-personagens .personagem img {
+	width: 100%;
+	height: 100%;
 }
 
 .lista-de-personagens .personagem.selecionado {
-    box-shadow: 0px 0px 24px 5px #0271f7;
+	box-shadow: 0px 0px 24px 5px #0271f7;
 }
 
 .personagem-selecionado {
@@ -73,7 +74,7 @@ body::before{
 }
 
 .personagem-selecionado .nome-personagem{
-    border-bottom: 2px solid; #47f4ff;
+    border-bottom: 2px solid #47f4ff;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -85,5 +86,5 @@ body::before{
     margin-top: 20px;
     width: 420px;
 }
-
+/*Isso é um comentário;
 
